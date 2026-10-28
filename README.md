@@ -26,7 +26,7 @@
 
 <div align="center">
 
-<img width="100%" src="./assets/readme-language-doughnut-card.svg" alt="Most used languages doughnut chart" />
+<img width="100%" src="./assets/readme-language-doughnut-card-github.svg" alt="Most used languages doughnut chart" />
 
 </div>
 
