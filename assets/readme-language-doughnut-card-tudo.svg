@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="100 72 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Most used languages</title>
+  <desc id="desc">Language distribution across all repositories and local projects, shown as a doughnut chart with legend.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f121a" />
+      <stop offset="100%" stop-color="#12161f" />
+    </linearGradient>
+    <radialGradient id="ambient" cx="86%" cy="10%" r="56%">
+      <stop offset="0%" stop-color="#4d7fc2" stop-opacity="0.12" />
+      <stop offset="55%" stop-color="#4d7fc2" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#4d7fc2" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="donutCore" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#141c29" />
+      <stop offset="100%" stop-color="#101621" />
+    </radialGradient>
+  </defs>
+
+  <g>
+    <rect x="100" y="72" width="1000" height="620" rx="26" fill="url(#surface)" stroke="#5b89be" stroke-opacity="0.96" stroke-width="4" />
+    <rect x="100" y="72" width="1000" height="620" rx="26" fill="url(#ambient)" />
+    <rect x="104" y="76" width="992" height="612" rx="22" fill="none" stroke="#b1cff0" stroke-opacity="0.18" stroke-width="1.75" />
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <circle cx="170" cy="168" r="13" fill="#4d7fc2" />
+      <text x="205" y="179" fill="#f1f3f7" font-size="34" font-weight="600">TypeScript</text>
+      <text x="505" y="179" text-anchor="end" fill="#9a9fad" font-size="34">34.5%</text>
+
+      <circle cx="170" cy="226" r="13" fill="#c45b47" />
+      <text x="205" y="237" fill="#f1f3f7" font-size="34" font-weight="600">HTML</text>
+      <text x="505" y="237" text-anchor="end" fill="#9a9fad" font-size="34">22.4%</text>
+
+      <circle cx="170" cy="284" r="13" fill="#a8cd67" />
+      <text x="205" y="295" fill="#f1f3f7" font-size="34" font-weight="600">Python</text>
+      <text x="505" y="295" text-anchor="end" fill="#9a9fad" font-size="34">14.0%</text>
+
+      <circle cx="170" cy="342" r="13" fill="#f0cf79" />
+      <text x="205" y="353" fill="#f1f3f7" font-size="34" font-weight="600">JavaScript</text>
+      <text x="505" y="353" text-anchor="end" fill="#9a9fad" font-size="34">7.6%</text>
+
+      <circle cx="170" cy="400" r="13" fill="#69479d" />
+      <text x="205" y="411" fill="#f1f3f7" font-size="34" font-weight="600">CSS</text>
+      <text x="505" y="411" text-anchor="end" fill="#9a9fad" font-size="34">5.8%</text>
+
+      <circle cx="170" cy="458" r="13" fill="#c4567e" />
+      <text x="205" y="469" fill="#f1f3f7" font-size="34" font-weight="600">C++</text>
+      <text x="505" y="469" text-anchor="end" fill="#9a9fad" font-size="34">5.5%</text>
+
+      <circle cx="170" cy="516" r="13" fill="#c48744" />
+      <text x="205" y="527" fill="#f1f3f7" font-size="34" font-weight="600">Java</text>
+      <text x="505" y="527" text-anchor="end" fill="#9a9fad" font-size="34">3.4%</text>
+
+      <circle cx="170" cy="574" r="13" fill="#4b7688" />
+      <text x="205" y="585" fill="#f1f3f7" font-size="34" font-weight="600">Shell</text>
+      <text x="505" y="585" text-anchor="end" fill="#9a9fad" font-size="34">2.9%</text>
+
+      <circle cx="170" cy="632" r="13" fill="#767e8c" />
+      <text x="205" y="643" fill="#f1f3f7" font-size="34" font-weight="600">Other</text>
+      <text x="505" y="643" text-anchor="end" fill="#9a9fad" font-size="34">3.9%</text>
+    </g>
+
+    <circle cx="848" cy="382" r="132" fill="none" stroke="#2a2f39" stroke-width="42" />
+    <circle cx="848" cy="382" r="150" fill="none" stroke="#4d7fc2" stroke-opacity="0.08" stroke-width="1.25" />
+    <g transform="rotate(-90 848 382)">
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#4d7fc2" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="34.5169 65.4831" stroke-dashoffset="-0.0000" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#c45b47" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="22.4164 77.5836" stroke-dashoffset="-34.5169" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#a8cd67" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="14.0407 85.9593" stroke-dashoffset="-56.9333" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#f0cf79" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="7.5583 92.4417" stroke-dashoffset="-70.9741" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#69479d" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="5.7635 94.2365" stroke-dashoffset="-78.5323" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#c4567e" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="5.5327 94.4673" stroke-dashoffset="-84.2958" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#c48744" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="3.3566 96.6434" stroke-dashoffset="-89.8286" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#4b7688" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="2.8941 97.1059" stroke-dashoffset="-93.1851" />
+      <circle cx="848" cy="382" r="132" fill="none" stroke="#767e8c" stroke-width="42" stroke-linecap="butt" pathLength="100" stroke-dasharray="3.9208 96.0792" stroke-dashoffset="-96.0792" />
+    </g>
+    <circle cx="848" cy="382" r="91" fill="url(#donutCore)" stroke="#223047" stroke-opacity="0.9" stroke-width="2" />
+    <text x="848" y="396" text-anchor="middle" fill="#d7e6f7" font-family="JetBrains Mono, Consolas, monospace" font-size="44" font-weight="700">&lt;/&gt;</text>
+
+    <text x="1050" y="668" text-anchor="end" fill="#8d92a2" font-family="Segoe UI, Arial, sans-serif" font-size="22">Last updated October 2026</text>
+  </g>
+</svg>
